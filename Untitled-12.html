@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulamin Strony</title>
+    <style>
+        /* Background styling */
+        body {
+            background: url('https://media.discordapp.net/attachments/1317194826898477096/1339669658009075804/image.png?ex=67b038d8&is=67aee758&hm=d695cbb09b2f0c6055e7be8b1b453d5a7bcd04a6f43c5543213ab2b734088c37&format=webp&quality=lossless&width=1440&height=435&') no-repeat center center fixed;
+            background-size: cover;
+            color: rgb(0, 195, 255);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Title animation */
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            animation: bounce 2s infinite alternate;
+        }
+
+        /* Section styling */
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+            margin: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Fade-in animation */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 1.5rem;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        /* Hover effect */
+        li:hover {
+            background: rgb(0, 247, 255);
+            color: black;
+            transform: scale(1.1);
+        }
+
+        /* Social Media Icons */
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid pink;
+        }
+
+        /* Animations */
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Regulamin Strony</h1>
+    
+    <div class="container">
+        <p>Witaj na naszej stronie! Ten projekt został stworzony, dla was </p>
+        <p><strong>Cel:</strong> Zapewnienie społeczności miejsca do dzielenia się wiedzą i pasją.</p>
+        <p><strong>Autor:</strong>  MrNew </p>
+        <p><strong>Planowane funkcje:</strong> Dużo interakcji w grze, pojazdy, system pinędzy zawansowany i wiele więcej</p>
+    </div>
+
+    <ul>
+        <li>1. Szanuk Innych Graczy</li>
+        <li>2. Nie spamuj</li>
+        <li>3. Przestrzegaj zasad społeczności</li>
+        <li>4. Nie udostępniaj nielegalnych treści</li>
+        <li>5. Bądź uprzejmy i pomocny</li>
+    </ul>
+
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+        <a href="https://discord.gg/RVsk8sswZ6" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/98/Discord_logo.svg" alt="Discord">
+        </a>
+        <a href="https://www.youtube.com/@idawideqi3032" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+        </a>
+        <a href="https://www.tiktok.com/@mr.new12" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok">
+        </a>
+        <a href="https://mrnew1.github.io/Sklep-Bielsko-Bia-e-RP/" target="_blank">
+            <img src="https://mrnew1.github.io/Sklep-Bielsko-Bia-e-RP/" alt="Sklep">
+        </a>
+    </div>
+
+</body>
+</html>
